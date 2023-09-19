@@ -1,0 +1,42 @@
+@preciseSearchbale@linux 
+env setup
+
+Node nvm 
+python miniconda
+######################Jsondb###############
+@datacamp
+pythonall
+
+pytorch 
+tensorflow
+misc 
+image uisng pil 
+using sciketlearn
+figma 
+
+######prj 
+react@figma 
+served using 
+dashboard Flask server model captcha
+backend  process @arubacloud /genesiscloud 
+#########################################################
+
+Auth
+
+github
+https://github.com/login
+*******1 01_emmi
+*********1 2023emi
+
+bitubcket
+https://id.atlassian.com/login?application=bitbucket&continue=https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%252F%26redirectCount%3D1
+********!
+
+
+proton
+https://account.proton.me/login
+01_emmi@proton.me 
+/cycle 
+2023emi@proton.me
+/horse
+

@@ -1,0 +1,5 @@
+script.js
+fetch func
+Fuse.js[]
+fuzzysearch key based
+handleSearch func

@@ -1,0 +1,19 @@
+
+
+dividing  full code to [dividefullcodeeg]@aoi
+and generate que postaoiinput
+
+q1refA div element with the id "searchResults" is initially empty but will be used to display search results.
+q1 A div element with the id "searchResults" is initially empty but will be used to display search results. how will it display data if there is no data before based on your knowledge of rendering of html in browser of various tags if there is image link in the json will it render the image given above prj code data.json index.html and js file i provided 
+
+q2If a search term exists, it uses the Fuse.js instance to perform a search and calls displaySearchResults to render the results.
+q2 If a search term exists, it uses the Fuse.js instance to perform a search and calls displaySearchResults to render the results. what do you mean if it exist do you mean in data.json and what is fuzzy search .
+
+q3For each result, it creates a new "card" div with Bootstrap classes.
+q3 can div card render image inside it if there is link img in json data like in content .
+ ##########
+NotesBaseapprTemplate_basedb
+
+
+#new technolgy use which functions 
+like in css best to use sizing pixel val or container relation image sizing based on probem ask aoi 

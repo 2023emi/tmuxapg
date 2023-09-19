@@ -1,0 +1,30 @@
+schema for pst*r & conda eg
+
+pst*r
+name = ?
+#tags||referencefile.txt 
+complexion=[1_black_/2_brown_/3_godlen_/4_white_/5/6_pale_/7_paleasfuck_]
+legs=[0_short_/1_tall_/]
+upperbody=[]
+
+
+search quer* 
+legs[0] complexion[1]
+################
+#conda
+
+envSetupSteps=?
+#tags
+envsetup
+techn[linux/python/etc]
+
+
+search quer*
+envsetup techn[python]
+
+
+
+######
+features
+typing effect + image @prevflask apps 
+understand js algo for filter regex etc

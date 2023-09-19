@@ -1,0 +1,78 @@
+
+
+tmux new -s test
+
+##Tags
+------
+
+##########tmux(multiple task  simultaneously in sessions attachbl  )
+generalTheory
+
+
+##########Custom TagsSchnema  - standaklone tags , indepthneeded()########
+
+#########Tags########
+panes 
+windows 
+sessions()
+
+#########softwareSpecefic########
+prefix key 
+
+#########modes########
+command mode using prefix + :
+
+
+########################
+ 
+########abbreviations########
+-------------
+prefix//p = ctrl+b
+window//w
+
+
+
+
+#########Commands########
+#Sessions
+
+
+#detach
+exit or detach = p+d
+choose client to detach  = p+D
+kill session = p+: kill-session
+
+#attach
+tmux list-sessions
+tmux attach-session -t session_name_or_id
+	
+new session = p+:new -s sessionname
+list sessions = p+s
+rename session = p+$
+toggle session prev next ie(ctrl+tab) = p+ (//)
+
+
+#Windows
+
+rename  w = p+, nname
+new  w = p+c
+switch w next/previous = p+n//p+p
+toggle window ie(ctrl+tab)=p+l
+
+
+
+
+#Panes
+resize = p+< or > or ud
+split = p+% // p+" (vertical/horizontal)
+switch to next pane = p+o
+toggle ie(ctrl+tab) = p+;
+
+
+
+
+################################################################
+################################################################
+
+Phisolophy it's a prcitice all of it for main taksks 
+practice of  giving structure to notes of newly learned .

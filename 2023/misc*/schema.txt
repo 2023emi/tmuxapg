@@ -1,0 +1,92 @@
+
+[
+  {
+    "title": "Note 1",
+    "content": "This is the content of Note 1.",
+    "date": "2023-08-15",
+    "tags": ["tag1", "tag2"]
+  },
+  {
+    "title": "Note 2",
+    "content": "This is the content of Note 2.",
+    "date": "2023-08-14",
+    "tags": ["tag2", "tag3"]
+  }
+]
+
+
+#######################
+curl https://<your-username>.github.io/<repository-name>/data.json
+
+
+####################INPUT DATA INTO content KEY FORMATTED FORM USING VIM  #########
+using single line text string 
+AOI prompt for wrong key value = JSON object => 
+
+how toputt this in json key value ,
+  {
+    "title": "Git",
+    "content": "or create a new repository on the command line
+
+echo "# jsondb" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/2023emi/jsondb.git
+git push -u origin main",
+    "date": "2023-08-12",
+    "tags": ["tag2", "tag4"]
+  }
+
+OUTPUT
+{
+    "title": "Git",
+    "content": "or create a new repository on the command line\n\necho \"# jsondb\" >> README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin https://github.com/2023emi/jsondb.git\ngit push -u origin main",
+    "date": "2023-08-12",
+    "tags": ["tag2", "tag4"]
+  }
+
+
+The backslashes (\) are used to escape characters that have special meanings in JSON.
+
+    \n is the escape sequence for a new line.
+    \" is used to include a double quote within the string.
+
+######################################VIM HAKX TO ADD \n AT THE END OF EACH LINE FOR FORAMTTING PKEY###
+        Open the JSON file in Vim:
+
+vim your_file.json
+
+    Use Visual Block Mode:
+
+    a. Press Ctrl + V to enter visual block mode.
+    b. Use the j keystroke to select the lines you want to modify.
+
+    Add ",\n" + to the end of each selected line:
+
+    a. Press $ to move the cursor to the end of the selected block.
+    b. Type Shift + A (capital "A"), then type ",\\n\" + and then press Esc. This will append ",\n" + to the end of each selected line.
+
+    Save the changes and exit Vim:
+
+Press Esc to ensure you're in normal mode, then type :wq and press Enter.
+
+Using Shift + A after selecting the block allows you to append text to the end of each line in the selected block.
+
+To collapse multiple lines into a single line in Vim, you can use the "join" command. Here's how you can do it:
+
+https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification/
+ssh-keygen -t rsa -b 4096 -C "pkey" -f /path/to/your/directory/id_rsa
+cat ~/.ssh/id_rsa.pub | xclip -sel clip .
+The permission values are:
+
+    4 for read permission
+    2 for write permission
+    1 for execute permission
+
+ssh -v -i ./pkey -T bit@bitbucket.org >pkey.log
+
+
+#################################################
+

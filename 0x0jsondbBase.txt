@@ -1,0 +1,25 @@
+public private for db
+
+chat input full code and generate prj essense 
+
+g.s@aoi
+
+apprForinput 
+to jsondb
+tags:
+1.tags
+2.memorybased/storyEtc
+
+construct the search in such way preencryption func. 
+that it dont depent on memory based search
+rather use tags.txt file to use tags which will be universal for that search niche .
+
+
+------------------
+dev appr first copy the file to prevent lost  ..
+three files script data index
+
+
+######33
+env setup npm  miniconda linux partition 
+reverse tether for dbfirst entry
